@@ -1,0 +1,36 @@
+
+/*Menu de navegacion 1*/
+
+.nav {
+    background: #222222;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.nav .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px 25px;
+    transition: .3s ease all;
+    font-size: 18px;
+    transition: all 0.5s;  
+}
+
+.nav a:hover {
+    color: #008bd1;
+    transform: scale(1.2);
+}
+.logo {
+    width: 84px;
+    height: 60px;
+}
