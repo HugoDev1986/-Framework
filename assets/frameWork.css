@@ -163,7 +163,7 @@ img {
 }
 
 /*Menu de navegacion 1*/
-.nav {
+/*.nav {
     background: #250fcd;
     display: flex;
     flex-wrap: wrap;
