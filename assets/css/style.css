@@ -33,8 +33,8 @@ header {
 .nav-list li a {
     text-decoration: none;
     color: #fff;
-    transition: all 0.5s;
     font-size: 20px;
+    transition: all 0.5s;
 }
 
 .nav-list li a:hover {
@@ -167,11 +167,29 @@ header {
     max-width: 20rem;
     margin-top: 5rem;
 }
-
-.titulo h1 {
+/*EFECTO MAQUINA DE ESCRIBIR*/
+h1{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 12ch;
     font-weight: 100;
-    color: #fff;
-}
+    font-size: 35PX;
+    
+    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    overflow:hidden;
+    }
+    
+    @keyFrames typing {
+    
+    from { width: 0}
+    }
+    
+    @keyFrames blink {
+     50% { border-color: transparent}
+    }
+
 .color-elemento {
     color: #222222;
 }
