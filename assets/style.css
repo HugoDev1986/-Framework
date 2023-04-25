@@ -33,6 +33,8 @@ header {
 .nav-list li a {
     text-decoration: none;
     color: #fff;
+    transition: all 0.5s;
+    font-size: 20px;
 }
 
 .nav-list li a:hover {
@@ -152,3 +154,32 @@ header {
         margin-right: 10px 20px;
     }
 }
+
+/*BANNER PRINCIPAL INICIO*/
+
+.banner {
+    display: grid;
+    place-items: center;
+    background-image: radial-gradient(circle at 50% -20.71%, #8bbae4 0, #5da2db 25%, #008ad1 50%, #0072c7 75%, #005cbd 100%);
+}
+
+.logo-banner {
+    max-width: 20rem;
+    margin-top: 5rem;
+}
+
+.titulo h1 {
+    font-weight: 100;
+    color: #fff;
+}
+.color-elemento {
+    color: #222222;
+}
+
+.parrafo {
+    margin: 0 15%;
+    padding-bottom: 18%;
+    font-weight: 100;
+}
+
+
