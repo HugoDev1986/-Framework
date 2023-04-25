@@ -182,4 +182,11 @@ header {
     font-weight: 100;
 }
 
+@media screen and (max-width:550px){
+    .logo-banner{
+        max-width: 15rem;
+        margin-top: 2rem;
+    }
+}
+
 
