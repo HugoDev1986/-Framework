@@ -55,7 +55,6 @@ img {
   margin: 20px auto;
 }
 
-
 /*======================
     * GRID*
 ========================*/
@@ -151,10 +150,10 @@ img {
     .cel-span-12 {grid-column: span 12;}
 }
 
-
 /*======================
     * COMPONENTES *
 ========================*/
+
 /*TARJETAS*/
 .card {
   padding: 40px;
@@ -170,11 +169,13 @@ img {
     flex-wrap: wrap;
     padding: 10px;
 }
+
 .nav .contenedor {
     display: flex;
     flex-wrap: wrap;
     margin: 0px auto;
 }
+
 .nav a {
     color: #fff;
     text-decoration: none;
@@ -185,22 +186,16 @@ img {
     transition: .3s ease all;
     font-size: 18px;
     transition: all 1.1s;  
+
 }
 .nav a:hover {
     transform: scale(1.2);
 }
 
-
-
 /*======================
     * FUENTES *
 ========================*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   margin-top: 0;
 }
 

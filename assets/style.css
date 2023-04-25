@@ -1,4 +1,3 @@
-
 /*Menu de navegacion 1*/
 
 .nav {
@@ -23,14 +22,21 @@
     padding: 15px 25px;
     transition: .3s ease all;
     font-size: 18px;
-    transition: all 0.5s;  
+    transition: all 0.5s;
 }
 
 .nav a:hover {
     color: #008bd1;
     transform: scale(1.2);
 }
+
 .logo {
-    width: 84px;
-    height: 60px;
+    width: 130px;
+    height: 110x;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
 }
