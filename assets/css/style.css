@@ -176,6 +176,7 @@ h1{
     width: 12ch;
     font-weight: 100;
     font-size: 35PX;
+    color: #fff;
     
     animation: typing 2s steps(12), blink .5s infinite step-end alternate;
     overflow:hidden;
@@ -199,6 +200,18 @@ h1{
     padding-bottom: 18%;
     font-weight: 100;
 }
+.color-stack {
+    color: #fff;
+}
+
+/*SECCION INSTALACION*/
+
+.titulo-instalacion {
+    display: grid;
+    place-content: center;
+    margin: 6rem 0 4rem;
+    font-size: 50px;
+}
 
 @media screen and (max-width:550px){
     .logo-banner{
@@ -208,6 +221,15 @@ h1{
     .parrafo {
         margin: 0 40px;
     }
+
+    .titulo-instalacion {
+        font-size: 23px;
+    }
 }
+
+    
+
+
+
 
 

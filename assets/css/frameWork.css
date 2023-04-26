@@ -14,7 +14,7 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
 ========================*/
 :root {
   --fuente: "IBM Plex Mono", monospace;
-  --fondo: #d0d0c6;
+  --fondo: #f0e7e7;
   --ancho: 1200px;
   --texto: #000;
 
