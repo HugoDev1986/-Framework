@@ -168,7 +168,7 @@ header {
     margin-top: 5rem;
 }
 /*EFECTO MAQUINA DE ESCRIBIR*/
-h1{
+.frameWork-HS {
     display: block;
     font-family: monospace;
     white-space: nowrap;
@@ -220,12 +220,21 @@ h1{
     }
     .parrafo {
         margin: 0 40px;
+        font-size: 17px;
+        text-align: center;
     }
 
     .titulo-instalacion {
         font-size: 23px;
     }
+
+    .instalacion p {
+        text-align:left;
+        font-size: 17px;
+    }
 }
+
+
 
     
 

@@ -14,7 +14,7 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
 ========================*/
 :root {
   --fuente: "IBM Plex Mono", monospace;
-  --fondo: #f0e7e7;
+  --fondo: #efefef;
   --ancho: 1200px;
   --texto: #000;
 
@@ -167,6 +167,7 @@ img {
 ========================*/
 h1,h2,h3,h4,h5,h6 {
   margin-top: 0;
+  margin: 0;
 }
 
 .display-1 {
@@ -183,5 +184,82 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
     font-size: 44px;
 }
+
+/*======================
+    * FORMULARIOS*
+========================*/
+
+form  {
+    font-family: var(--fuente);
+    margin-top: 30px;
+}
+
+form .input {
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid #d6d6d6;
+    transition: .3s ease all;
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+form .input:focus {
+    border: 1px solid #641ee7;
+    outline: none;
+}
+
+/*======================
+    *BOTONES*
+========================*/
+
+.boton {
+    background: #641ee7;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 22px;
+    transition: .3s ease all;
+}
+
+.boton:hover {
+    background: #5114c2;
+}
+
+.boton.verde {
+    background: #00a04a;
+}
+
+.boton.verde:hover {
+    background: #00833d;
+}
+
+/*======================
+    * HElPERS*
+========================*/
+
+/*Sin margenes*/
+.no-margen {margin: 0;}
+.no-margen-superior {margin-top: 0;}
+.no-margen-inferior {margin-bottom: 0;}
+.no-margen-izquierdo {margin-left: 0;}
+.no-margen-derecho {margin-right: 0; }
+
+/*margenes entre elementos o contenedores*/
+.margen-inferior {margin-bottom: 20px;}
+.margen-superior {margin-top: 20px;}
+
+/*Posicion de texto*/
+.texto-centrado {text-align: center;}
+.texto-izquierda {text-align: left;}
+.texto-derecha {text-align: right;}
+
+
+
+
+
 
 
