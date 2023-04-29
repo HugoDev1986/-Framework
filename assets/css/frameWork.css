@@ -17,6 +17,7 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
   --fondo: #efefef;
   --ancho: 1200px;
   --texto: #000;
+  --boton: #641ee7;
 
 }
 
@@ -54,6 +55,11 @@ img {
   width: 100%;
   padding: 0 40px;
   margin: 20px auto;
+}
+
+.centrar-div {
+    display: grid;
+    place-items: center;
 }
 
 /*======================
@@ -162,6 +168,8 @@ img {
   border-radius: 3px;
   box-shadow: 0px 0px 30px rgba(221, 221, 221, 0.3);
 }
+
+
 /*======================
     * FUENTES *
 ========================*/
@@ -237,6 +245,41 @@ form .input:focus {
     background: #00833d;
 }
 
+.boton-radius {
+    background: #641ee7;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 22px;
+    transition: .3s ease all;
+}
+
+.boton-radius:hover {
+    background: #5114c2;
+    transform: scale(1.1);
+}
+
+/*======================
+    * IMAGENES*
+========================*/
+
+.img-responsive {
+
+    width: 75vh;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+.img-responsive img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
 /*======================
     * HElPERS*
 ========================*/
@@ -250,7 +293,9 @@ form .input:focus {
 
 /*margenes entre elementos o contenedores*/
 .margen-inferior {margin-bottom: 20px;}
+.margen-inferior-alta {margin-top: 40px;}
 .margen-superior {margin-top: 20px;}
+.margen-superior-alta {margin-top: 40px;}
 
 /*Posicion de texto*/
 .texto-centrado {text-align: center;}

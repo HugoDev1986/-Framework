@@ -1,4 +1,4 @@
-/*FUNCION BOTON MENU HAMBURHESA MOBILE*/ 
+/*FUNCION BOTON MENU HAMBURGUESA MOBILE*/ 
 const nav = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
