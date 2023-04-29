@@ -271,7 +271,7 @@ form .input:focus {
 
     width: 75vh;
     max-width: 1000px;
-    min-width: 320px;
+    min-width: 250px;
     margin: auto;
 }
 .img-responsive img {
